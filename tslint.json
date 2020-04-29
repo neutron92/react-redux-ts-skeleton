@@ -1,0 +1,32 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-prettier",
+        "tslint-config-standard"
+    ],
+    "rulesDirectory": [
+        "tslint-plugin-prettier"
+    ],
+    "rules": {
+        "prettier": true,
+        "indent": [true, "spaces"],
+        "ter-indent": [true, 4, { "SwitchCase": 1 }],
+        "interface-name": true,
+        "jsx-no-multiline-js": false,
+        "object-literal-sort-keys": false,
+        "no-small-switch": false,
+        "ordered-imports": false,
+        "triple-equals": [true, "allow-null-check"],
+        "switch-default": true,
+        "semicolon": [true, "always"],
+        "no-empty": false,
+        "no-debugger": true,
+        "quotemark": false,
+        "space-before-function-paren": false,
+        "no-duplicate-string": [true, 3],
+        "no-big-function": [true, 60],
+        "trailing-comma": [true, { "multiline": "always", "singleline": "never" }]
+    }
+}
